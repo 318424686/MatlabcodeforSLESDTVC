@@ -1,0 +1,16 @@
+% ==============================================================================
+% Copyright (c) [2024] [Zhou Bo]
+% All Rights Reserved
+%
+% This code is the intellectual property of [Your Full Name]. The code
+% or any portion of it may be used exclusively for academic and scientific
+% research purposes. Any other use, including but not limited to commercial
+% application or adaptation, redistribution, or incorporation into other
+% software, is strictly prohibited without prior written consent from the
+% copyright owner.
+%
+% By using this code, you agree to abide by these terms and acknowledge that
+% this code is provided "AS IS" without warranty of any kind, either expressed
+% or implied, including but not limited to the implied warranties of
+% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+% ==============================================================================
