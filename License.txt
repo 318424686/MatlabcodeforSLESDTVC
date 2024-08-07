@@ -1,8 +1,8 @@
 % ==============================================================================
-% Copyright (c) [2024] [Zhou Bo]
+% Copyright (c) [2024] [Bo Zhou]
 % All Rights Reserved
 %
-% This code is the intellectual property of [Your Full Name]. The code
+% This code is the intellectual property of [Bo Zhou]. The code
 % or any portion of it may be used exclusively for academic and scientific
 % research purposes. Any other use, including but not limited to commercial
 % application or adaptation, redistribution, or incorporation into other
