@@ -112,7 +112,7 @@ for it=1:Ntmax
     ezinc(2:wavelenth-1)=ca*ezinc(2:wavelenth-1)-cb*(hyinc(2:wavelenth-1)-hyinc(1:wavelenth-2));
     %%
     Ex(upml+2:Nzmax-upml)=epsr(upml+2:Nzmax-upml,it)./epsr(upml+2:Nzmax-upml,it+1).*Ex(upml+2:Nzmax-upml)...
-        -fe./epsr(upml+2:Nzmax-upml,it+1).*(Hy(upml+2:Nzmax-upml)-Hy(upml+1:Nzmax-upml-1)-dz*Jix(upml+2:Nzmax-upml));
+        -fe./epsr(upml+2:Nzmax-upml,it+1).*(Hy(upml+2:Nzmax-upml)-Hy(upml+1:Nzmax-upml-1)+dz*Jix(upml+2:Nzmax-upml));
     Ex(2:upml+1)=CA(2:upml+1).*Ex(2:upml+1)-CB(2:upml+1).*(Hy(2:upml+1)-Hy(1:upml))/dz;
     Ex(Nzmax-upml+1:Nzmax)=CA(Nzmax-upml+1:Nzmax).*Ex(Nzmax-upml+1:Nzmax)...
         -CB(Nzmax-upml+1:Nzmax).*(Hy(Nzmax-upml+1:Nzmax)-Hy(Nzmax-upml:Nzmax-1))/dz;
